@@ -1,0 +1,45 @@
+i= insert mode{
+	no tricks here yet, sorry :P
+}
+Esc= normal mode{
+**	h=	left
+**	k=	up
+**	l=	right
+**	j=	down
+**	e=	end of the word
+**	b=	begin of the word
+**	w=	start of the next word
+	[(n)i(c) Esc]=insert the character c n times
+**	f/F=	find the next occurrence of a character (example 2fo find the second occurence of o 
+		starting from the current postion of the cursor
+	%=	find matching parentheses
+	0=	go to the start of the current line
+	$=	go to the end of the current line
+	*=	find the next occurrence of the word under cursor
+	#=	find the previous occurrence of the word under cursor
+	gg=	go to the beginning of the file
+	(n)G=	go to line number n (by default last line)
+	/=	search for text (use n and N to go back/forth between matchings)
+	o=	insert in line under
+	O=	insert in line above
+	x=	delete character under the cursor
+	X=	delete character to the left of the cursor
+	r=	use it to replace the letter under the cursor
+	d=	delete (can be combined with movement to specify the way to delete, 
+		also copy the content you can p to paste them
+	.=	repeat previous command
+	:= 	enter commands (like wq,q!,w,q..etc) 
+}
+v=visual mode{
+	d=	delete selected text
+	y=	copy selected text	
+**	h=	left
+**	k=	up
+**	l=	right
+**	j=	down
+**	e=	end of the word
+**	b=	begin of the word
+**	w=	start of the next word
+}
+
+	**we can use numbers with them like 3w, 2j ..etc. 
